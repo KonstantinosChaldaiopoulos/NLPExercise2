@@ -10,18 +10,17 @@ We implemented various text classification approaches using the scikit-learn lib
 
 
 ## Question 3 (Code folder: Question3):
-We have evaluated the performance of different RNN and LSTM models on the text classification task using the AG News Topic Classification dataset. The models include single-layer unidirectional RNN (1RNN), single-layer bidirectional RNN (1Bi-RNN), two-layer bidirectional RNN (2Bi-RNN), single-layer unidirectional LSTM (1LSTM), single-layer bidirectional LSTM (1Bi-LSTM), and two-layer bidirectional LSTM (2Bi-LSTM). We have referred to the tables in the Question1 and Question2 code files, which demonstrate the models' accuracy on the test set, their complexity (number of parameters), and their time cost (average seconds per epoch).
-
 It should be noted that the one-directional RNN (1RNN) code was provided by the teacher.
 
-We have analyzed how the model performance is affected by their complexity, how the time cost is affected by their complexity, and how much the use of two layers helps in improving the model's performance. We have also identified specific texts in the test set that all models misclassify, showed the contents of one such text, reported the number of such texts per category (World, Sports, Business, Sci/Tech), and identified the most common pair of correct category and wrong prediction for these texts.
+We have evaluated the performance of different RNN and LSTM models on the text classification task using the AG News Topic Classification dataset. The models include single-layer unidirectional RNN (1RNN), single-layer bidirectional RNN (1Bi-RNN), two-layer bidirectional RNN (2Bi-RNN), single-layer unidirectional LSTM (1LSTM), single-layer bidirectional LSTM (1Bi-LSTM), and two-layer bidirectional LSTM (2Bi-LSTM).We have analyzed how the model performance is affected by their complexity, how the time cost is affected by their complexity, and how much the use of two layers helps in improving the model's performance. We have also identified specific texts in the test set that all models misclassify, showed the contents of one such text, reported the number of such texts per category (World, Sports, Business, Sci/Tech), and identified the most common pair of correct category and wrong prediction for these texts.
 
-Additionally, we have explored the effect of changing the MAX_WORDS parameter from 25 to 50 and compared the results with those from the previous part. We have examined how this change affects RNN and LSTM models in terms of performance and complexity.
+The answers to the above are in  Question3a-b file.
 
-Furthermore, we have modified the code to initialize the network embeddings with pre-trained embeddings (glove-6B-100d), reported the code changes, and repeated the analysis with MAX_WORDS=25. We have discussed the impact of using pre-trained embeddings on model performance and complexity.
+Additionally, we have explored the effect of changing the MAX_WORDS parameter from 25 to 50 and compared the results with those from the previous part. We have examined how this change affects RNN and LSTM models in terms of performance and complexity.(Question3c file)
 
-We have also repeated the previous analysis but froze the GloVe embeddings during the training of the network. We have reported the code changes and discussed the resulting performance compared to the previous part.
+Furthermore, we have modified the code to initialize the network embeddings with pre-trained embeddings (glove-6B-100d), reported the code changes, and repeated the analysis with MAX_WORDS=25. We have discussed the impact of using pre-trained embeddings on model performance and complexity.(Question3d file)
 
-Finally, we have adapted the code to work with the IMDB movie review dataset, which consists of 50k movie reviews classified into two categories (positive and negative). We have used 80% of the dataset as the training set and the remaining 20% as the test set. We have repeated the analysis for the IMDB dataset, following the same process as in sub-question a.
+We have also repeated the previous analysis but froze the GloVe embeddings during the training of the network. We have reported the code changes and discussed the resulting performance compared to the previous part. (Question3e file)
 
-The detailed results and code implementation for these additional tasks can be found in the Question3 code folder.
+Finally, we have adapted the code to work with the IMDB movie review dataset, which consists of 50k movie reviews classified into two categories (positive and negative). We have used 80% of the dataset as the training set and the remaining 20% as the test set. We have repeated the analysis for the IMDB dataset, following the same process as in Question3a-b file. (Question3f file)
+
