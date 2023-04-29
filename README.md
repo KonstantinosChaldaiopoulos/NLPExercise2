@@ -24,3 +24,13 @@ Finally, we have adapted the code to work with the IMDB movie review dataset, wh
 
 All the tables of the results can be found in each code file.
 
+### Find the datasets 
+For the ag-news dataset:
+https://www.kaggle.com/datasets/amananandrai/ag-news-classification-dataset
+
+For the IMDB dataset:
+https://www.kaggle.com/datasets/lakshmi25npathi/imdb-dataset-of-50k-movie-reviews
+
+## Author
+
+This repository was created by Konstantinos Chaldaiopoulos
