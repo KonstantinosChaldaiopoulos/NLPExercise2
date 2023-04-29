@@ -16,7 +16,7 @@ We have evaluated the performance of different RNN and LSTM models on the text c
 
 Additionally, we have explored the effect of changing the MAX_WORDS parameter from 25 to 50 and compared the results with those from the previous part. We have examined how this change affects RNN and LSTM models in terms of performance and complexity. (Question3c file)
 
-Furthermore, we have modified the code to initialize the network embeddings with pre-trained embeddings (glove-6B-100d), reported the code changes, and repeated the analysis with MAX_WORDS=25. We have discussed the impact of using pre-trained embeddings on model performance and complexity.(Question3d file)
+Furthermore, we have modified the code to initialize the network embeddings with pre-trained embeddings (glove-6B-100d), reported the code changes, and repeated the analysis with MAX_WORDS=25. We have discussed the impact of using pre-trained embeddings on model performance and complexity. (Question3d file)
 
 We have also repeated the previous analysis but froze the GloVe embeddings during the training of the network. We have reported the code changes and discussed the resulting performance compared to the previous part. (Question3e file)
 
