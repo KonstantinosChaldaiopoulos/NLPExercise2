@@ -22,3 +22,5 @@ We have also repeated the previous analysis but froze the GloVe embeddings durin
 
 Finally, we have adapted the code to work with the IMDB movie review dataset, which consists of 50k movie reviews classified into two categories (positive and negative). We have used 80% of the dataset as the training set and the remaining 20% as the test set. We have repeated the analysis for the IMDB dataset, following the same process as in Question3a-b file. (Question3f file)
 
+All the tables of the results can be found in each code file.
+
