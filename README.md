@@ -1,3 +1,5 @@
+# NLP exercise 2
+
 In this exercise, we have completed a series of tasks related to word embeddings and traditional text classification using the pre-trained word embeddings, word2vec (word2vec-google-news-300) and GloVe (glove-wiki-gigaword-300) included in gensim, and the AG News Topic Classification dataset with the scikit-learn library.
 
 ## Question 1 (Code File: Question1):
